@@ -31,12 +31,19 @@
 # }
 
 def naming_system
-  naming_system = {
-    label: "Kingdom"{
-      label: "Phylum"{
+  naming_system = 
+  {
+    label: "Kingdom",
+    {
+      label: "Phylum"
+      {
         label: "Class"
       }
     }
-    
+    label: "Order",
+    label: "Family",
+    {
+      label: "Genus"
+    }
   }
 end
